@@ -1,0 +1,7 @@
+runtime: nodejs12
+service: FE-desain
+
+handlers:
+- url: /.*
+  secure: always
+  script: auto
